@@ -34,3 +34,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Development
+
+### Formatting
+Run `npm run format` to format the codebase with Prettier.
+
+### Creating components
+Run `npm run new-component -- <ComponentName>` to scaffold a new component in `src/components` and update the `src/components/index.ts` barrel file.
+
+### Tasks
+- [x] Configure Prettier and a format script
+- [x] Provide a component scaffolding script
+
